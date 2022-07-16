@@ -1,0 +1,51 @@
+/* PROJECT SECTION */
+.Project{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    object-fit: cover;
+}
+.projectNo{
+    border-radius: 50px;
+    width:100px;
+    background-color: rgba(128, 128, 128, 0.493);
+    color: white;
+}
+
+/* SKILL AND LANGUAGE SECTION */
+.SkillLangs{
+    background-color: whitesmoke;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SkillLangs .Headers{
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    border-right: 2px solid rgb(61, 61, 61) ;
+    padding-right: 2%;
+    height: 90%;
+}
+.SkillLangs .Lists{
+    margin-left: 3%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: inherit;
+    align-items: flex-start;
+    
+}
+
+.SkillLangs .lang{
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Gill Sans';
+    color: rgb(61, 61, 61);
+}
